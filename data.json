@@ -1,0 +1,75 @@
+{
+    "teachers":[
+        {
+            "id": 0,
+            "name": "Bocchi",
+            "salary_rate": 0.8
+        },
+        {
+            "id": 99,
+            "name": "Ryo",
+            "salary_rate": 0.9
+        },
+        {
+            "id": 2,
+            "name": "Ikuyo",
+            "salary_rate": 0.910
+        }
+    ],
+
+    "students":[
+        {
+            "id": 910,
+            "name": "Memcho",
+            "address": "Meguro"
+        },
+        {
+            "id": 4,
+            "name": "Kana",
+            "address": "Yoyogi"
+        },
+        {
+            "id": 5,
+            "name": "Ruby",
+            "address": "Tachikawa"
+        }
+    ],
+
+    "teachings":[
+        {
+            "student_id": 910,
+            "teacher_id": 0,
+            "subject_name": "Fruid Mechanics",
+            "day": "Monday",
+            "tuition": 33400
+        },
+        {
+            "student_id": 4,
+            "teacher_id": 0,
+            "subject_name": "Math",
+            "day": "Tuesday",
+            "tuition": 22600
+        },
+        {
+            "student_id": 910,
+            "teacher_id": 99,
+            "subject_name": "Japanese",
+            "day": "Thursday",
+            "tuition": 99000
+        },
+        {
+            "student_id": 4,
+            "teacher_id": 99,
+            "subject_name": "Math",
+            "day": "Friday",
+            "tuition": 33400
+        },
+        {
+            "student_id": 5,
+            "teacher_id": 2,
+            "subject_name": "Maternity nursing",
+            "day": "Sunday",
+            "tuition": 100
+        }
+    ]
+}
